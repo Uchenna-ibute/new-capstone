@@ -309,9 +309,13 @@ footer p {
   padding: 5%;
 }
 
-.memberC {
+.memb {
   display: flex;
   margin: 5% 0;
+}
+
+.backdrop img {
+  width: 30%;
 }
 
 .member-image {
@@ -364,7 +368,7 @@ footer p {
   background: #a1a1a3;
 }
 
-.buttonO {
+.butto {
   font-size: 1.3em;
   padding: 2% 5%;
   color: #272a31;
@@ -373,17 +377,17 @@ footer p {
   border-radius: 5px;
 }
 
-.buttonO:hover {
+.butto:hover {
   cursor: pointer;
 }
 
-.buttonO > span > img {
+.butto > span > img {
   object-fit: contain;
   max-height: 10%;
   padding: 0 2%;
 }
 
-.card-hidden {
+.cardhid {
   display: none;
 }
 
@@ -585,7 +589,7 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 
-  .buttonO {
+  .butto {
     display: none;
   }
 
